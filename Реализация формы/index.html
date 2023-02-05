@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация форм</title>
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="form-container">
+            <form action="/" method="POST">
+            <header>
+                <h2>ЗАГОЛОВОК ФОРМЫ</h2>
+            </header>
+                <div class="form-body">
+                    <div class="form-section">
+                        <h2>Заголовок раздела</h2>
+                        <div class="form-question">
+                            <h3>1. Текст вопроса.</h3>
+                            <p>
+                                Небольшое описание вопроса.
+                            </p>
+                            <input type="text" placeholder="Введите короткий ответ.">
+                        </div>
+                        <div class="form-question">
+                            <h3>3. Текст вопроса.</h3>
+                            <p>
+                                Небольшое описание вопроса.
+                            </p>
+                            <textarea placeholder="Введите развернутый ответ." name="" id=""></textarea>
+                        </div>
+                        <div class="form-question">
+                            <h3>2. Текст вопроса.</h3>
+                            <p>
+                                Небольшое описание вопроса.
+                            </p>
+                            <label><input type="radio" name="first" value="1">Первый вариант ответа.</label>
+                            <label><input type="radio" name="first" value="2">Второй вариант ответа.</label>
+                            <label><input type="radio" name="first" value="3">Третий вариант ответа.</label>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <input type="submit" value="ОТПРАВИТЬ ФОРМУ">
+                </footer>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

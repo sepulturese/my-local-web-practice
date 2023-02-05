@@ -1,0 +1,198 @@
+@import url("zero.css");
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16pt;
+    color: #3E3E3E;
+    user-select: none;
+}
+
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    font-family: inherit;
+    user-select: inherit;
+}
+
+
+main {
+    margin-top: 88px;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 650px;
+}
+
+
+
+/* -------------------------------------------------- */
+/* |         СТИЛИЗАЦИЯ КОНТЕЙНЕРОВ ФОРМЫ           | */
+/* -------------------------------------------------- */
+.form-container {
+    background-color: #E9E9E9;
+    border: 6px solid #46516D;
+}
+
+
+.form-container header {
+    text-align: center;
+    background-color: #46516D;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+
+.form-container header h2 {
+    font-size: 38px;
+    color: #EFFAFF;
+    font-weight: bold;
+}
+
+
+.form-body {
+    padding: 18px 21px 20px 21px;
+}
+
+
+.form-section h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #3E3E3E;
+    border-bottom: 3px solid #3E3E3E;
+    padding-bottom: 5px;
+    margin-bottom: 10px
+}
+
+
+.form-question {
+    margin-bottom: 35px;
+}
+
+
+.form-question:last-child {
+    margin-bottom: 5px;
+}
+
+
+.form-question h3 {
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.form-question p {
+    font-size: 18px;
+    width: 100%;
+    margin-left: 19px;
+    margin-bottom: 10px;
+}
+/* -------------------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* |            СТИЛИЗАЦИЯ ПОЛЕЙ ВВОДА              | */
+/* -------------------------------------------------- */
+input {
+   outline: none;
+}
+
+
+input[type="radio"] {
+    margin-right: 8px;
+    border: 0;
+}
+
+
+input[type="text"] {
+    color: #B3B3B3;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid #CAC8C8;
+    background-color: #DDDDDD;
+    padding: 5px 23px 5px 23px;
+    transition: all 0.2s ease;
+}
+
+
+input[type="text"]:focus {
+    color: #3E3E3E;
+    border-color: #46516D;
+    font-size: 20px;
+}
+
+
+textarea {
+    color: #B3B3B3;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid #CAC8C8;
+    background-color: #DDDDDD;
+    padding: 5px 23px 5px 23px;
+    height: 120px;
+    overflow-y: auto;
+    resize: none;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+
+textarea:focus {
+    color: #3E3E3E;
+    border-color: #46516D;
+    font-size: 20px;
+}
+
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #46516D;
+    border: 0;
+    color: #E9E9E9;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #54638A;
+    cursor: pointer;
+}
+/* -------------------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* |            СТИЛИЗАЦИЯ ФУТЕРА ФОРМЫ             | */
+/* -------------------------------------------------- */
+footer {
+    padding: 0 21px 5px 21px;
+}
+/* -------------------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* |            РЕАЛИЗАЦИЯ АДАПТИВНОСТИ             | */   
+/* -------------------------------------------------- */
+@media screen and (max-width: 650px) {
+    main {
+        margin-top: 0;
+    }
+}
+/* -------------------------------------------------- */
