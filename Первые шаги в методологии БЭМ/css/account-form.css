@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+
+
+.account-form {
+    width: 300px;
+}
+
+
+.account-form .account-form__header {
+    line-height: 100%;
+    font-size: 48px;
+    font-family: 'Bebas Neue';
+    margin-bottom: 16px;
+}
+
+
+.account-form .account-form__input {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: #EEEEEE;
+    border: 0;
+    border-radius: 9px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+
+.account-form .account-form__button {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border: 0;
+    border-radius: 9px;
+    padding: 13px 20px 13px 20px;
+    color: #F6F6F6;
+    background-color: #161616;
+    margin-right: 4px;
+}
